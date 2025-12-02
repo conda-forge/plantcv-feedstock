@@ -38,7 +38,7 @@ requirements:
     - dask-jobqueue
     - statsmodels
     - xarray >=2022.11.0
-    - altair
+    - altair <6
     - vl-convert-python
     - nd2
     - flyr
