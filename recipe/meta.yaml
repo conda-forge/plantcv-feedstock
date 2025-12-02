@@ -41,6 +41,7 @@ requirements:
     - altair
     - vl-convert-python
     - nd2
+    - flyr
 
 test:
   imports:
