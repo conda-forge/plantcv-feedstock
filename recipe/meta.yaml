@@ -33,7 +33,7 @@ requirements:
     - python-dateutil
     - scikit-image >=0.19
     - scikit-learn
-    - scipy
+    - scipy <1.16
     - dask
     - dask-jobqueue
     - statsmodels
@@ -42,6 +42,10 @@ requirements:
     - vl-convert-python
     - nd2
     - flyr
+    - nbconvert
+    - nbformat
+    - imageio >-2.28
+    - imageio-ffmpeg
 
 test:
   imports:
