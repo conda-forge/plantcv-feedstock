@@ -44,7 +44,7 @@ requirements:
     - flyr
     - nbconvert
     - nbformat
-    - imageio >-2.28
+    - imageio >=2.28
     - imageio-ffmpeg
 
 test:
