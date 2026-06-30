@@ -28,7 +28,7 @@ requirements:
     - matplotlib-base >=1.5
     - numpy >=1.26
     - opencv
-    - pandas
+    - pandas !=3.0.4
     - python >={{ python_min }}
     - python-dateutil
     - scikit-image >=0.19
