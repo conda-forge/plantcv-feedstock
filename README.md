@@ -37,10 +37,10 @@ Current release info
 Installing plantcv
 ==================
 
-Installing `plantcv` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `plantcv` from the `conda-forge/label/rc` channel can be achieved by adding `conda-forge/label/rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/rc
 conda config --set channel_priority strict
 ```
 
@@ -86,7 +86,7 @@ It is possible to list all of the versions of `plantcv` available on your platfo
 <summary>With conda</summary>
 
 ```
-conda search plantcv --channel conda-forge
+conda search plantcv --channel conda-forge/label/rc
 ```
 
 </details>
@@ -95,7 +95,7 @@ conda search plantcv --channel conda-forge
 <summary>With mamba</summary>
 
 ```
-mamba search plantcv --channel conda-forge
+mamba search plantcv --channel conda-forge/label/rc
 ```
 
 </details>
@@ -104,7 +104,7 @@ mamba search plantcv --channel conda-forge
 <summary>With pixi</summary>
 
 ```
-pixi search plantcv --channel conda-forge
+pixi search plantcv --channel conda-forge/label/rc
 ```
 
 </details>
@@ -114,13 +114,13 @@ pixi search plantcv --channel conda-forge
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search plantcv --channel conda-forge
+mamba repoquery search plantcv --channel conda-forge/label/rc
 
 # List packages depending on `plantcv`:
-mamba repoquery whoneeds plantcv --channel conda-forge
+mamba repoquery whoneeds plantcv --channel conda-forge/label/rc
 
 # List dependencies of `plantcv`:
-mamba repoquery depends plantcv --channel conda-forge
+mamba repoquery depends plantcv --channel conda-forge/label/rc
 ```
 
 </details>
