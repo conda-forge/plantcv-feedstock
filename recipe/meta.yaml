@@ -1,5 +1,5 @@
 {% set name = "plantcv" %}
-{% set version = "4.11.3" %}
+{% set version = "5.0.0rc2" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cec2239711c05765fd0166c6db62fb58f6d2fb9b4a16a83b4c5c622eb3b2bf03
+  sha256: 96e1325a295f5db188d9c6ff04b9f9412338b88bbb09b0a6708f44120bfdd8a5
   patches:
     - 0001-Patch-pyproject.patch
 
@@ -52,7 +52,6 @@ test:
     - plantcv
     - plantcv.learn
     - plantcv.parallel
-    - plantcv.utils
     - plantcv.plantcv
   commands:
     - pip check
